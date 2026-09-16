@@ -1,0 +1,6 @@
+# Ignore environment variables
+.env
+.env.local
+
+# Ignore the Figma MCP configuration since it contains a private Personal Access Token
+.agents/plugins/figma/mcp_config.json
